@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO%27s\Admin\" />
+    <Folder Include="DTO%27s\Reports\" />
+    <Folder Include="DTO%27s\Transactions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Audree.Incident.Core\Audree.Incident.Core.csproj" />
+  </ItemGroup>
+
+</Project>
